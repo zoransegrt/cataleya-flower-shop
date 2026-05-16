@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cataleya | Cvećara Vračar</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="logo.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#pocetna" aria-label="Cataleya početna">
+          <span class="brand-mark" aria-hidden="true">
+            <img class="brand-logo" src="logo.png" alt="Cataleya logo" />
+          </span>
+
+          <span class="brand-text">
+            <strong class="brand-name">Cataleya</strong>
+            <span class="brand-sub">Cvećara • Vračar</span>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Glavna navigacija">
+          <a href="#onama">O nama</a>
+          <a href="#ponuda">Ponude</a>
+          <a href="#galerija">Galerija</a>
+          <a href="#kontakt">Kontakt</a>
+        </nav>
+
+        <div class="header-actions">
+          <a class="chip" href="tel:+381 62 8361681">+381 62 8361681</a>
+
+          <!-- Replace href with your real Google Maps link -->
+          <a
+            class="chip"
+            href="https://www.google.com/maps?q=Vracar,+Beograd"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Bokeljska 1a, Vračar
+          </a>
+
+          <a class="btn" id="orderBouquetBtn" href="#kontakt">Poruči buket</a>
+
+          <button
+            class="menu-btn"
+            aria-label="Otvori meni"
+            aria-expanded="false"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero" id="pocetna" aria-label="Uvodna sekcija">
+        <img class="hero-bg" src="background.png" alt="" aria-hidden="true" />
+
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="hero-kicker">Cveće koje se pamti</p>
+
+            <h1>Dobrodošli u cvećaru Cataleya</h1>
+
+            <p class="hero-lead">
+              Na Vračaru pravimo bukete koji izgledaju luksuzno, mirišu sveže i
+              ostavljaju utisak — bilo da slavite rođendan, godišnjicu, uspeh
+              ili želite “samo” da ulepšate dan nekom posebnom. Svaki aranžman
+              sastavljamo ručno, sa pažnjom na boje, teksture i poruku koju
+              nosi.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn" href="#ponuda">Pogledaj ponudu</a>
+              <a class="btn-soft" href="#kontakt">Kontaktiraj nas</a>
+            </div>
+
+            <ul class="hero-badges" aria-label="Prednosti">
+              <li>Ručno rađeni buketi</li>
+              <li>Sveže cveće svaki dan</li>
+              <li>Vračar • Beograd</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="page-after-hero">
+        <!-- O NAMA -->
+        <section class="section about" id="onama" aria-label="O nama">
+          <div class="container">
+            <header class="section-head">
+              <h2>O nama</h2>
+              <p>
+                Cataleya je cvećara na Vračaru — pravimo bukete i aranžmane koji
+                izgledaju elegantno, mirišu sveže i nose poruku.
+              </p>
+            </header>
+
+            <div class="about-grid">
+              <div class="about-card">
+                <div class="about-icon" aria-hidden="true">
+                  <img class="about-icon-img" src="fresh.png" alt="" />
+                </div>
+                <div class="about-card-body">
+                  <h3>Ručni rad</h3>
+                  <p>
+                    Svaki buket sastavljamo ručno, sa pažnjom na boje, teksture
+                    i kompoziciju.
+                  </p>
+                </div>
+              </div>
+
+              <div class="about-card">
+                <div class="about-icon" aria-hidden="true">
+                  <img class="about-icon-img" src="fresh.png" alt="" />
+                </div>
+                <div class="about-card-body">
+                  <h3>Sveže cveće</h3>
+                  <p>
+                    Radimo sa svežim cvećem svaki dan, kako bi aranžmani trajali
+                    što duže.
+                  </p>
+                </div>
+              </div>
+
+              <div class="about-card">
+                <div class="about-icon" aria-hidden="true">
+                  <img class="about-icon-img" src="fresh.png" alt="" />
+                </div>
+                <div class="about-card-body">
+                  <h3>Isporuka na dogovor</h3>
+                  <p>
+                    Dogovaramo isporuku i personalizaciju poruke za rođendane,
+                    godišnjice i iznenađenja.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-cta">
+              <a class="btn" href="#kontakt">Piši nam</a>
+              <a class="btn-soft" href="#ponuda">Pogledaj ponudu</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- PONUDE -->
+        <section class="section offers" id="ponuda" aria-label="Ponude">
+          <div class="container">
+            <header class="section-head">
+              <h2>Ponude</h2>
+              <p>Izaberi kategoriju i pogledaj šta je dostupno.</p>
+            </header>
+
+            <div class="offers-grid">
+              <article class="offer-card">
+                <div class="offer-media" aria-hidden="true">
+                  <img class="offer-img" src="mini1.jpeg" alt="" />
+                </div>
+                <div class="offer-body">
+                  <h3>Pojedinačno cveće</h3>
+                  <p>
+                    Ruže, lale, ljiljani i sezonsko cveće — brzo i jednostavno.
+                  </p>
+                </div>
+              </article>
+
+              <article class="offer-card">
+                <div class="offer-media" aria-hidden="true">
+                  <img class="offer-img" src="mini1.jpeg" alt="" />
+                </div>
+                <div class="offer-body">
+                  <h3>Buketi</h3>
+                  <p>
+                    Romantični, elegantni i moderni buketi za svaku priliku.
+                  </p>
+                </div>
+              </article>
+
+              <article class="offer-card">
+                <div class="offer-media" aria-hidden="true">
+                  <img class="offer-img" src="mini1.jpeg" alt="" />
+                </div>
+                <div class="offer-body">
+                  <h3>Aranžmani</h3>
+                  <p>
+                    Box aranžmani, korpe i dekoracije za proslave i događaje.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- GALERIJA -->
+        <section class="section gallery" id="galerija" aria-label="Galerija">
+          <div class="container">
+            <header class="section-head">
+              <h2>Galerija</h2>
+              <p>
+                Delimo deo naših buketa i aranžmana — uskoro još fotografija.
+              </p>
+            </header>
+
+            <div class="gallery-grid">
+              <figure class="gallery-card">
+                <img class="gallery-img" src="mini2.jpeg" alt="" />
+              </figure>
+              <figure class="gallery-card">
+                <img class="gallery-img" src="mini2.jpeg" alt="" />
+              </figure>
+              <figure class="gallery-card">
+                <img class="gallery-img" src="mini2.jpeg" alt="" />
+              </figure>
+
+              <figure class="gallery-card">
+                <img class="gallery-img" src="mini2.jpeg" alt="" />
+              </figure>
+              <figure class="gallery-card">
+                <img class="gallery-img" src="mini2.jpeg" alt="" />
+              </figure>
+              <figure class="gallery-card">
+                <img class="gallery-img" src="mini2.jpeg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <!-- KONTAKT -->
+        <section class="section contact" id="kontakt" aria-label="Kontakt">
+          <div class="container">
+            <header class="section-head">
+              <h2>Kontakt</h2>
+              <p>Pošalji pitanje ili poruči buket — odgovaramo brzo.</p>
+            </header>
+
+            <div class="contact-grid">
+              <div class="contact-info">
+                <div class="contact-card">
+                  <h3>Telefon</h3>
+                  <p>
+                    <a class="contact-link" href="tel:+381 62 8361681"
+                      >+381 62 8361681</a
+                    >
+                  </p>
+                  <p class="contact-muted">Pozovi nas ili pošalji poruku.</p>
+                </div>
+
+                <div class="contact-card">
+                  <h3>Lokacija</h3>
+                  <p>Bokeljska 1a, Beograd</p>
+                </div>
+
+                <div class="contact-card">
+                  <h3>Radno vreme</h3>
+                  <p>Pon–Sub: 09:00–20:00</p>
+                  <p class="contact-muted">Nedeljom po dogovoru.</p>
+                </div>
+              </div>
+
+              <form
+                class="contact-form"
+                id="contactForm"
+                action="#"
+                method="post"
+              >
+                <div class="form-row">
+                  <label class="form-label">
+                    Ime i prezime
+                    <input
+                      class="form-input"
+                      type="text"
+                      name="name"
+                      placeholder="Npr. Ana Petrović"
+                      required
+                    />
+                  </label>
+
+                  <label class="form-label">
+                    Telefon
+                    <input
+                      class="form-input"
+                      type="tel"
+                      name="phone"
+                      placeholder="Npr. +381 60 123 456"
+                      required
+                    />
+                  </label>
+                </div>
+
+                <label class="form-label">
+                  Tip porudžbine
+                  <select class="form-input" id="orderType" name="type">
+                    <option value="pitanje">Imam pitanje</option>
+                    <option value="pojedinacno">Pojedinačno cveće</option>
+                    <option value="buket">Buket</option>
+                    <option value="aranzman">Aranžman</option>
+                  </select>
+                </label>
+
+                <label class="form-label">
+                  Poruka / detalji porudžbine
+                  <textarea
+                    class="form-input form-textarea"
+                    name="message"
+                    rows="6"
+                    placeholder="Napiši boje, budžet, datum isporuke, posvetu..."
+                  ></textarea>
+                </label>
+
+                <div class="form-actions">
+                  <button class="btn" type="submit">Pošalji</button>
+                  <p class="form-note">
+                    Slanjem poruke prihvataš da te kontaktiramo u vezi
+                    porudžbine.
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
